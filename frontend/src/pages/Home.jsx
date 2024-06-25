@@ -23,7 +23,12 @@ const peticion = async()=> {
         <button onClick={peticion}>PEddiree</button>
 
         <div>{datos && datos.map((items, index) => (
-          <p key={index}>{items.nombre}</p>
+        <div key={index}>
+
+          <p>{items.nombre}</p>
+          <p>{items.precio}</p>
+        </div>
+
         ))}</div>
     </div>
   )
