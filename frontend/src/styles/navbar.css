@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1em;
+    color: #fff;
+   
+    .ul-nav{
+        list-style: none;
+        display: flex;
+        gap: 5px;
+        font-size: 1.1em;
+
+    }
+    .btn-menu-nav{
+        font-size: 2em;
+    }
+}

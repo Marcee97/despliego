@@ -27,6 +27,8 @@ const peticion = async()=> {
 
           <p>{items.nombre}</p>
           <p>{items.precio}</p>
+          <p>{items.imagen}</p>
+          <p>{items.stock}</p>
         </div>
 
         ))}</div>
